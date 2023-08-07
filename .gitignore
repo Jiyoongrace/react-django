@@ -1,0 +1,36 @@
+# 환경 설정 파일
+.env
+
+# 데이터베이스 파일
+db.sqlite3
+
+# 정적 파일과 미디어 파일
+/staticfiles/
+/media/
+
+# 파이썬 가상 환경
+venv/
+*.pyc
+__pycache__/
+*.pyo
+
+# 로그 파일
+*.log
+
+# VSCode 설정 파일
+.vscode/
+
+# PyCharm 설정 파일
+.idea/
+
+# 로컬 개발 서버 설정 파일
+.pytest_cache/
+
+# 배포 관련 파일
+.DS_Store
+*.bak
+*.swp
+*.tmp
+
+# 다운로드된 파일
+downloads/
